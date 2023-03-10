@@ -5,6 +5,7 @@ const person = {
 }
 
 const keys = Object.keys(person);
-console.log(keys);
-
+for (const element of keys) {
+  console.log(element);
+}
 // Print values of person using Object.keys
